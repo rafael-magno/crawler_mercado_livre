@@ -1,0 +1,17 @@
+{
+  "name": "crawler_mercado_livre",
+  "version": "1.0.0",
+  "description": "Crawler de pesquisa de produtos no Mercado Livre",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Magno Silva Isaltino",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "restana": "^3.3.1",
+    "puppeteer": "^2.1.1"
+  }
+}
